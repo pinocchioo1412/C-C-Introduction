@@ -8,5 +8,5 @@ int main(){
     s*=i;
     }
     cout<<s;
-    return 0;
+
 }
