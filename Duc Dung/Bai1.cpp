@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    cout << "Try programiz.pro";
+    cout << "Hello world!" << endl;
 
     return 0;
 }
