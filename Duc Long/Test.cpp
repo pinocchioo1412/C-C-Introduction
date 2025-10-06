@@ -1,3 +1,10 @@
-//
-// Created by admin on 10/5/2025.
-//
+#include<iostream>
+using namespace std;
+int main() {
+    string S;
+    getline(cin, S);
+    for (int i = 0; i < 3; i++) {
+        cout << S << endl;
+    }
+
+}
