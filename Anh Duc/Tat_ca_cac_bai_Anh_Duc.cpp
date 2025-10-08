@@ -102,7 +102,7 @@ int main() {
         cout << "Khong phai la tam giac";
     }
 }
-/******************* BAI SO 6 ****************/
+/******************* BAI SO 6 ***************/
 #include<iostream>
 #include<cmath>
 using namespace std;
