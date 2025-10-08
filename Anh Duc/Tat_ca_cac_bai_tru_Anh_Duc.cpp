@@ -102,6 +102,23 @@ int main() {
         cout << "Khong phai la tam giac";
     }
 }
+/******************* BAI SO 6 ****************/
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main(){
+	int n;
+	cin >> n;
+	for(int x = floor(log2(n)); x >= 0; x--){
+		if(n >= pow(2,x)){
+			cout << "1";
+			n-=pow(2,x);
+		} else {
+			cout << "0";
+		}
+	}
+}
+
 
 
 
