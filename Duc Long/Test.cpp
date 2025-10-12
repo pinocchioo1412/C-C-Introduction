@@ -1,10 +1,9 @@
-#include<iostream>
-using namespace std;
-int main() {
-    string S;
-    getline(cin, S);
-    for (int i = 0; i < 3; i++) {
-        cout << S << endl;
-    }
+#include<stdio.h>
 
+int main() {
+    int S;
+    printf("Nhap so: ");
+    scanf("%d", &S);
+    printf("H: %X\n", S);
+    return 0;
 }
