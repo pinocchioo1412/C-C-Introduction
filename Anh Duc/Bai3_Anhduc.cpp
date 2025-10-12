@@ -1,0 +1,8 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main(){
+    char n;
+    cin >> n;
+    cout << int(n);
+}
