@@ -6,5 +6,18 @@ int main() {
     cin >> s;
 
     int hoa = 0, thuong = 0, so = 0;
-
+    for (auto c : s) {
+        if (c >= '0' && c <= '9') {
+            so += 1;
+        }
+        else if (c >= 'a' && c <= 'z') {
+            thuong += 1;
+        }
+        else if (c >= 'A' && c <= 'Z') {
+            hoa += 1;
+        }
+    }
+    cout << "Hoa = " << hoa << endl;
+    cout << "Thuong = " << thuong << endl;
+    cout << "So = " << so << endl;
 }
