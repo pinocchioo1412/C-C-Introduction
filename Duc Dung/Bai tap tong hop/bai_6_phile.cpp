@@ -8,7 +8,6 @@ void nhi_phan(int x) {
     }
     cout << (x%2);
 }
-
 int main()
 {
     int x;
