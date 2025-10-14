@@ -6,10 +6,10 @@ int main() {
     cin >> n;
 
     int maxVal = 0;
+    int a[n];
     for (int i = 0; i < n; i++) {
-        int x;
-        cin >> x;
-        if (x > maxVal) maxVal = x;
+        cin >> a[i];
+        if (a[i] > maxVal) maxVal = a[i];
     }
 
     cout << maxVal;

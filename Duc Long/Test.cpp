@@ -1,9 +1,14 @@
-#include<stdio.h>
+#include<iostream>
+using namespace std;
 
 int main() {
-    int S;
-    printf("Nhap so: ");
-    scanf("%d", &S);
-    printf("H: %X\n", S);
-    return 0;
+    int a, b;
+    cin >> a >> b;
+    while (b != 0) {
+        int gcd = a % b;
+        a = b;
+        b = gcd;
+    }
+    cout << a << endl;
+
 }
