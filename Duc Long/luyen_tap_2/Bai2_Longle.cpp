@@ -11,3 +11,4 @@ int main() {
     cout << "Tich = " << a * b << endl;
     cout << "Thuong = " << thuong << endl;
 }
+// sua lai dung precision nhe

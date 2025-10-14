@@ -1,6 +1,8 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
+
+// 14 nao day????
 int main() {
     double a1, b1, c1;
     cout << "Nhap binh phuong 3 canh tam giac (a^2, b^2, c^2):\n";
