@@ -25,3 +25,7 @@ int main()
         cout << "khong doi xung";
     }
 }
+
+// sao lai dung string
+// choi ban a??
+// code dung int di

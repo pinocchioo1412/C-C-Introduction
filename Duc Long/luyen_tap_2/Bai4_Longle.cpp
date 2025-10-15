@@ -8,3 +8,5 @@ int main() {
     }
     else cout << "Khong";
 }
+
+ // dieu kien a,b,c > 0 dau?
