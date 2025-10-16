@@ -1,31 +1,30 @@
 #include <iostream>
 using namespace std;
 
+bool palinedrome(int s)
+{
+    int original = s;
+    int reversed = 0;
+    int remainder;
+
+    while (s != 0)
+    {
+        remainder = s % 10;
+        reversed = reversed * 10 + remainder;
+        s = s / 10;
+    }
+
+    return original == reversed;
+}
+
 int main()
 {
-    string s;
+    int s;
     cin >> s;
-    bool palinedrome = true;
-    int len = s.length();
 
-    for (int i = 0 ; i < len / 2 ; i++)
-    {
-        if (s[i] != s[len - i - 1])
-        {
-            palinedrome = false;
-            break;
-        }
-    }
-    if (palinedrome)
+    if (palinedrome(s))
     {
         cout << "doi xung";
     }
-    else
-    {
-        cout << "khong doi xung";
-    }
+    else cout << "khong doi xung";
 }
-
-// sao lai dung string
-// choi ban a??
-// code dung int di
