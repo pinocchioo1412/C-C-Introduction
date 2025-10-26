@@ -2,18 +2,22 @@
 using namespace std;
 
 int maxDigit(int a) {
-    int maxDi = 0;
+    int maxD = 0;
     if (a >= 1 && a <= 1e10) {
-        c = log10(a) + 1;
-        return c;
+        while (a > 0) {
+            int so = a % 10;
+            if (so > maxD) {
+                maxD = so;
+            }
+            a /= 10;
+        }
     }
-    else if (a == 0) return 1;
-    else return -1;
+    return maxD;
 }
 
 int main() {
     int a;
     cin >> a;
-    cout << sonlonnhat(a);
+    cout << maxDigit(a);
     return 0;
 }
