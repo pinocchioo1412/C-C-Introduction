@@ -7,7 +7,7 @@ double tong(int a)
     double tong = 0;
     if (a != 0)
     {
-        for (double i = 1; i <= a; i++)
+        for (double i = 1 ; i <= a ; i++)
         {
             tong += 1/i;
         }

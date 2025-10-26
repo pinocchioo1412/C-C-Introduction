@@ -8,7 +8,7 @@ int perfect(int a)
     {
         if (a % i == 0)
         {
-            perfect += i;
+            perfect + = i;
         }
     }
     if (perfect == a)
