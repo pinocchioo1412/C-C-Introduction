@@ -41,7 +41,6 @@ double tinhDinhThucDeQuy(double matrix[][MAX], int n) {
     for (int j = 0; j < n; j++) {
         // Tạo ma trận con bỏ hàng 0 và cột j
         taoMatranCon(matrix, matranCon, n, 0, j);
-
         // Công thức: det = Σ((-1)^j * a[0][j] * det(minor))
         double dau = (j % 2 == 0) ? 1 : -1;
         dinhThuc += dau * matrix[0][j] * tinhDinhThucDeQuy(matranCon, n - 1);
